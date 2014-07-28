@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		06F27B2DFFEEEFEF11CA0E56 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = ScreenSaver.framework;
+			path = /System/Library/Frameworks/ScreenSaver.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		06F27B30FFEEEFEF11CA0E56 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		06F27B31FFEEEFEF11CA0E56 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//060
+//061
+//062
+//063
+//064
+//080
+//081
+//082
+//083
+//084
+		089C1669FE841209C02AAC07 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				06F27B30FFEEEFEF11CA0E56,
+				06F27B31FFEEEFEF11CA0E56,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 089C166AFE841209C02AAC07;
+			projectDirPath = "";
+			targets = (
+				8D255AC50486D3F9007BF209,
+			);
+		};
+		089C166AFE841209C02AAC07 = {
+			children = (
+				08FB77AFFE84173DC02AAC07,
+				32DBCFA70370C4F300C91783,
+				089C167CFE841241C02AAC07,
+				089C1671FE841209C02AAC07,
+				19C28FB8FE9D52D311CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Album Art For The Rest of Us";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 = {
+			children = (
+				1058C7ACFEA557BF11CA2CBB,
+				1058C7AEFEA557BF11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Frameworks and Libraries";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1672FE841209C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		089C167CFE841241C02AAC07 = {
+			children = (
+				0F89084E0AC844D100997D4C,
+				8D255AD20486D3F9007BF209,
+				089C167DFE841241C02AAC07,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C167DFE841241C02AAC07 = {
+			children = (
+				089C167EFE841241C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C167EFE841241C02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C167FFE841241C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		08FB77AFFE84173DC02AAC07 = {
+			children = (
+				F50079790118B23001CA0E54,
+				F500797A0118B23001CA0E54,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//0F0
+//0F1
+//0F2
+//0F3
+//0F4
+		0F89084E0AC844D100997D4C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.scpt;
+			path = getArtWork.scpt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0F89084F0AC844D100997D4C = {
+			fileRef = 0F89084E0AC844D100997D4C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//0F0
+//0F1
+//0F2
+//0F3
+//0F4
+//100
+//101
+//102
+//103
+//104
+		1058C7ACFEA557BF11CA2CBB = {
+			children = (
+				1058C7ADFEA557BF11CA2CBB,
+				06F27B2DFFEEEFEF11CA0E56,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1058C7ADFEA557BF11CA2CBB = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1058C7AEFEA557BF11CA2CBB = {
+			children = (
+				089C1672FE841209C02AAC07,
+				089C167FFE841241C02AAC07,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//100
+//101
+//102
+//103
+//104
+//190
+//191
+//192
+//193
+//194
+		19C28FB8FE9D52D311CA2CBB = {
+			children = (
+				8D255AD30486D3F9007BF209,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//190
+//191
+//192
+//193
+//194
+//320
+//321
+//322
+//323
+//324
+		32DBCFA70370C4F300C91783 = {
+			children = (
+				32DBCFA80370C50100C91783,
+			);
+			isa = PBXGroup;
+			name = "Other Sources";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		32DBCFA80370C50100C91783 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Album Art For The Rest of Us_Prefix.pch";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//320
+//321
+//322
+//323
+//324
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+		8D255AC50486D3F9007BF209 = {
+			buildPhases = (
+				8D255AC60486D3F9007BF209,
+				8D255AC90486D3F9007BF209,
+				8D255ACB0486D3F9007BF209,
+				8D255ACD0486D3F9007BF209,
+				8D255AD00486D3F9007BF209,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Album Art For The Rest of Us_Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Album Art For The Rest of Us";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = saver;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = "Album Art For The Rest of Us";
+			productInstallPath = "$(HOME)/Library/Screen Savers";
+			productName = "Album Art For The Rest of Us";
+			productReference = 8D255AD30486D3F9007BF209;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D255AC60486D3F9007BF209 = {
+			buildActionMask = 2147483647;
+			files = (
+				8D255AC70486D3F9007BF209,
+				8D255AC80486D3F9007BF209,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D255AC70486D3F9007BF209 = {
+			fileRef = 32DBCFA80370C50100C91783;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D255AC80486D3F9007BF209 = {
+			fileRef = F50079790118B23001CA0E54;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D255AC90486D3F9007BF209 = {
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACA0486D3F9007BF209,
+				0F89084F0AC844D100997D4C,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D255ACA0486D3F9007BF209 = {
+			fileRef = 089C167DFE841241C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D255ACB0486D3F9007BF209 = {
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACC0486D3F9007BF209,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D255ACC0486D3F9007BF209 = {
+			fileRef = F500797A0118B23001CA0E54;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D255ACD0486D3F9007BF209 = {
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACE0486D3F9007BF209,
+				8D255ACF0486D3F9007BF209,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D255ACE0486D3F9007BF209 = {
+			fileRef = 1058C7ADFEA557BF11CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D255ACF0486D3F9007BF209 = {
+			fileRef = 06F27B2DFFEEEFEF11CA0E56;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D255AD00486D3F9007BF209 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D255AD20486D3F9007BF209 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist;
+			path = Info.plist;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8D255AD30486D3F9007BF209 = {
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = "Album Art For The Rest of Us.saver";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+//F50
+//F51
+//F52
+//F53
+//F54
+		F50079790118B23001CA0E54 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = Album_Art_For_The_Rest_of_UsView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F500797A0118B23001CA0E54 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = Album_Art_For_The_Rest_of_UsView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = 089C1669FE841209C02AAC07;
+}

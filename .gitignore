@@ -6,3 +6,9 @@
 #
 # Pods/
 
+*.pbxuser
+*.mode1
+*.xcodeproj/*.*
+!*.xcodeproj/project.pbxproj
+build/
+.DS_Store
